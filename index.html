@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="https://formsubmit.io/send/vorezny@gmail.com" method="POST">
+            <h1>Formularz kontaktowy</h1>
+            <input type="text" id="firstName" placeholder="Imię" required>
+            <input type="text" id="lastName" placeholder="Nazwisko" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <input type="text" id="mobile" placeholder="nr. Telefonu" required>
+            <h4>Tutaj wpisz swoją wiadomosć...</h4>
+            <textarea required></textarea>
+            <input type="submit" value="Wyślij" id="button">
+        </form>
+    </div>
+</body>
+</html>
